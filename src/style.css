@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: ubuntu;
+  src: url(./fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: oswald;
+  src: url(./fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: mplus;
+  src: url(./fonts/MPLUS1p-Regular.ttf);
+}
+@font-face {
+  font-family: emoji;
+  src: url(./fonts/NotoEmoji-VariableFont_wght.ttf);
+}
+
+:root {
+  --bg:  #1f2355;
+  --fg:  #a9b1d6;
+  --black: #414868;
+  --red: #f7768e;
+  --green: #9ece6a;
+  --yellow: #e0af68;
+  --blue: #7aa2f7;
+  --magenta: #bb9af7;
+  --cyan: #7dcfff;
+  --white: #a9b1d6;
+  --bright-black: #24283b;
+  --bright-red: #db4b4b;
+  --bright-green: #73daca;
+  --bright-yellow: #ff9e64;
+  --bright-blue: #2ac3de;
+  --bright-magenta: #ff007c;
+  --bright-cyan: #89ddff;
+  --bright-white: #c0caf4;
+
+}
+
+* {
+  font-family: ubuntu, mplus, oswald, emoji;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
