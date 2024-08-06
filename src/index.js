@@ -1,12 +1,7 @@
 import './style.css';
 import { home, menu, about } from './pages/init.js';
 
-// for dev
-//
 const loadContent = () => home();
-//const loadContent = () => menu();
-//const loadContent = () => about();
-
 loadContent();
 
 const removeOldPage = () => {
@@ -20,7 +15,6 @@ const removeOldPage = () => {
 const buttons = document.querySelectorAll("button");
 buttons.forEach((button) => {
     button.addEventListener("click", () => {
-        //console.log(button.id); 
         switch(button.id) {
             case "home":
                 removeOldPage();
