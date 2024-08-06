@@ -6,7 +6,7 @@ const about = () => {
     photo.src = Icon;
  
     const pageHeadline = document.createElement('h2');
-    pageHeadline.setAttribute('class', 'headline');
+    pageHeadline.setAttribute('class', 'title');
     pageHeadline.textContent = "About the restaurant!";
 
     const pageFluff = document.createElement('div');

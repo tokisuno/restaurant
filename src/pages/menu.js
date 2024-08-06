@@ -8,7 +8,7 @@ const menu = () => {
     //photo.src = Icon;
 
     const pageHeadline = document.createElement('h2');
-    pageHeadline.setAttribute('class', 'headline');
+    pageHeadline.setAttribute('class', 'menu');
     pageHeadline.textContent = "Menu";
 
     content.appendChild(pageHeadline);
@@ -26,17 +26,17 @@ const menu = () => {
             name.textContent = `${item["name"]}`;
             name.setAttribute('class', 'name');
 
-            const price = document.createElement('div');
-            price.textContent = `$${item["price"]}`;
-            price.setAttribute('class', 'price');
-
             const description = document.createElement('div');
             description.textContent = `${item["description"]}`;
             description.setAttribute('class', 'description');
 
+            const price = document.createElement('div');
+            price.textContent = `$${item["price"]}`;
+            price.setAttribute('class', 'price');
+
             itemDiv.append(name);
-            itemDiv.appendChild(price);
             itemDiv.appendChild(description);
+            itemDiv.appendChild(price);
 
             section.appendChild(itemDiv);
         });

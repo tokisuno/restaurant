@@ -3,8 +3,8 @@ import { home, menu, about } from './pages/init.js';
 
 // for dev
 //
-//const loadContent = () => home();
-const loadContent = () => menu();
+const loadContent = () => home();
+//const loadContent = () => menu();
 //const loadContent = () => about();
 
 loadContent();
