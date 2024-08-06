@@ -1,0 +1,41 @@
+{
+    "food": [
+        {
+            "name": "Meatballs",
+            "description": "The finest meatballs in all the lands!",
+            "price": "10"
+        },
+        {
+            "name": "Big Meatballs",
+            "description": "The finest and BIGGEST meatballs in all the lands!",
+            "price": "15"
+        },
+        {
+            "name": "Meatball Missle",
+            "description": "A large meatball submarine sandwich with meatballs, fresh tomato sauce, cheese, lettuce, and meatballs!",
+            "price": "20"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Water",
+            "description": "A cold glass of water",
+            "price": "0"
+        },
+        {
+            "name": "Pepsi (Can)",
+            "description": "A refreshing can of Pepsi poured in a cold glass",
+            "price": "3"
+        },
+        {
+            "name": "Coffee",
+            "description": "Hot coffee, made how you like!",
+            "price": "1.50"
+        },
+        {
+            "name": "Green Tea",
+            "description": "Brown rice green tea made how you like!",
+            "price": "1.50"
+        }
+    ]
+}

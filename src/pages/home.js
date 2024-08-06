@@ -1,11 +1,11 @@
-const content = document.querySelector('body');
-import Icon from './assets/LEFFEN.png';
+const content = document.querySelector('div#content');
+import Icon from '../assets/LEFFEN.png';
 
-const loadContent = () => {
+const home = () => {
     const photo = new Image();
     photo.src = Icon;
 
-    const pageHeadline = document.createElement('div');
+    const pageHeadline = document.createElement('h2');
     pageHeadline.setAttribute('class', 'headline');
     pageHeadline.textContent = "Swedish tourist so impressed by his meal, he rips his citizenship to stay forever!";
 
@@ -16,6 +16,6 @@ const loadContent = () => {
     content.appendChild(photo);
     content.appendChild(pageHeadline);
     content.appendChild(pageFluff);
-}
+};
 
-export { loadContent };
+export { home };
